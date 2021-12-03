@@ -1,7 +1,7 @@
 {
   "name": "vercelcdn",
   "version": 2,
-  "routes": [
-    {"src": "/(.*)","dest": "http://hanamaru-hareru.github.io/$1"}
+  "rewrites": [
+    {"source": "/(.*)","destination": "http://hanamaru-hareru.github.io/$1"}
   ]
 }
